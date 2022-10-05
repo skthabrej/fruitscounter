@@ -1,0 +1,26 @@
+.background-container {
+    background-color: lightyellow;
+    height: 100vh;
+}
+
+.tab-container {
+    background-color: lightcyan;
+    padding: 25px;
+    margin: 20px;
+}
+
+.buttons-container {
+    background-color: skyblue;
+    color: black;
+    height: 15px;
+    width: 40px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.buttons-direction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
