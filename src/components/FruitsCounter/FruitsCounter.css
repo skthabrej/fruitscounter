@@ -1,19 +1,25 @@
 .background-container {
     background-color: lightyellow;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .tab-container {
     background-color: lightcyan;
-    padding: 25px;
+    padding: 20%;
     margin: 20px;
+    width: 50%;
+    text-align: center;
 }
 
 .buttons-container {
-    background-color: skyblue;
+    background-color: pink;
     color: black;
-    height: 15px;
-    width: 40px;
+    font-weight: bold;
+    padding: 20px;
     border-style: solid;
     border-radius: 10px;
 

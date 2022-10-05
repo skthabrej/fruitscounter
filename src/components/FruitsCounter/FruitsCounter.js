@@ -18,7 +18,7 @@ class FruitsCounter extends Component {
         return (
             <div className="background-container">
                 <div className="tab-container">
-                    <h1>bob ate <span>{count1}</span> mangos and<span>{count2}</span>bananas</h1>
+                    <h1>I have <span>{count1}</span> mangos and <span>{count2}</span> bananas!</h1>
                     <div className="buttons-direction">
                         <button className="buttons-container" onClick={this.mangoIncrement}>Mango</button>
                         <button className="buttons-container" onClick={this.bananaIncrement}>Banana</button>
