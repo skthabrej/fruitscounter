@@ -8,25 +8,56 @@
 }
 
 .tab-container {
-    background-color: lightcyan;
-    padding: 20%;
-    margin: 20px;
-    width: 50%;
+    background-color: rgb(255, 255, 255);
     text-align: center;
+    height: 50%;
+    width: 50%;
 }
 
 .buttons-container {
-    background-color: pink;
+    background-color: rgb(255, 233, 110);
     color: black;
     font-weight: bold;
     padding: 20px;
     border-style: solid;
     border-radius: 10px;
+    height: 4vh;
+    width: 15vh;
 
 }
 
 .buttons-direction {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+.paragraph {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.buttons-container1 {
+    background-color: rgb(255, 27, 65);
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 4vh;
+    width: 15vh;
+}
+.image {
+    height: 50%;
+    width: 50%;
+}
+.all-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.m-span {
+    color: rgb(165, 165, 0);
+}
+.a-span {
+    color: rgb(255, 87, 87);
 }
