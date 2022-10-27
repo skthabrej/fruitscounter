@@ -1,5 +1,5 @@
 .background-container {
-    background-color: lightyellow;
+    background-image: linear-gradient(to right, yellow ,red);
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -8,10 +8,9 @@
 }
 
 .tab-container {
-    background-color: rgb(255, 255, 255);
     text-align: center;
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
 }
 
 .buttons-container {
@@ -48,7 +47,7 @@
     width: 15vh;
 }
 .image {
-    height: 50%;
+    height: 70%;
     width: 50%;
 }
 .all-buttons {
@@ -56,8 +55,8 @@
     justify-content: space-between;
 }
 .m-span {
-    color: rgb(165, 165, 0);
+    color: rgb(255, 255, 0);
 }
 .a-span {
-    color: rgb(255, 87, 87);
+    color: rgb(255, 0, 0);
 }

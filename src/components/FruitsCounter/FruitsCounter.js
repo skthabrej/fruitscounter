@@ -22,12 +22,12 @@ class FruitsCounter extends Component {
                     <p className="paragraph">Click to add fruits count</p>
                     <div className="all-buttons">
                         <div className="buttons-direction">
-                            <img src="https://assets.ccbp.in/frontend/react-js/mango-img.png" className="image" alt = 'mango'/>
+                            <img src="https://i.postimg.cc/4dNskPGL/mango-g8b6fd4f7d-1280.png" className="image" alt = 'mango'/>
                             <button className="buttons-container" onClick={this.mangoIncrement}>Mango</button>
                         </div>
                         <div className="buttons-direction">
-                            <img src="https://assets.ccbp.in/frontend/react-js/banana-img.png" className="image" alt = 'apple'/>
-                            <button className="buttons-container1" onClick={this.bananaIncrement}>Banana</button>
+                            <img src="https://i.postimg.cc/BnpJhR9L/apple-g365ffc6e0-1280.png" className="image" alt = 'apple'/>
+                            <button className="buttons-container1" onClick={this.bananaIncrement}>Cherry</button>
                         </div>
                     </div>
                 </div>
